@@ -8,29 +8,29 @@ const Footer = () => {
     <footer className="relative z-10 w-full max-w-[512px] mx-auto px-4 pt-0 pb-12 mt-6 text-center">
       {/* Social Media Icons */}
       <div className="flex items-center justify-center gap-1.5 mb-2">
-          <a 
-            href="https://www.facebook.com/target/" 
+          <a
+            href="https://www.facebook.com/Costco/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-7 h-7 rounded-full bg-[#cc0000] hover:bg-[#cc0000] flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
+            className="w-7 h-7 rounded-full bg-[#005dab] hover:bg-[#005dab] flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
             aria-label="Facebook"
           >
             <Facebook className="w-3.5 h-3.5 fill-current" />
           </a>
           <a 
-            href="https://www.instagram.com/target/" 
+            href="https://www.instagram.com/costco/?hl=en" 
             target="_blank"
             rel="noopener noreferrer"
-            className="w-7 h-7 rounded-full bg-[#cc0000] hover:bg-[#cc0000] flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
+            className="w-7 h-7 rounded-full bg-[#005dab] hover:bg-[#005dab] flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
             aria-label="Instagram"
           >
             <Instagram className="w-3.5 h-3.5" />
           </a>
           <a 
-            href="https://www.linkedin.com/company/target" 
+            href="https://www.linkedin.com/company/costco-wholesale" 
             target="_blank"
             rel="noopener noreferrer"
-            className="w-7 h-7 rounded-full bg-[#cc0000] hover:bg-[#cc0000] flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
+            className="w-7 h-7 rounded-full bg-[#005dab] hover:bg-[#005dab] flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
             aria-label="LinkedIn"
           >
             <Linkedin className="w-3.5 h-3.5 fill-current" />
